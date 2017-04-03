@@ -2,9 +2,9 @@
 
 [react项目简介](root/intro.md) 100%
 
-[什么是.github] 进行中 [liushuigs](https://github.com/liushuigs)
+[什么是.github](root/what-is-dot-github.md) 100%
 
-[什么是.babelrc]
+[什么是.babelrc]进行中 [liushuigs](https://github.com/liushuigs)
 
 [什么是.eslintignore和.eslintrc.js]
 
