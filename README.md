@@ -4,9 +4,9 @@
 
 [什么是.github](root/what-is-dot-github.md) 100%
 
-[什么是.babelrc]进行中 [liushuigs](https://github.com/liushuigs)
+[什么是.babelrc](root/what-is-dot-babelrc.md)
 
-[什么是.eslintignore和.eslintrc.js]
+[什么是.eslintignore和.eslintrc.js][liushuigs](https://github.com/liushuigs)
 
 [什么是.flowconfig]
 
