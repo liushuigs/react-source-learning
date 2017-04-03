@@ -1,6 +1,6 @@
 # react-source-learning
 
-[react项目简介](https://github.com/liushuigs/react-source-learning/blob/master/intro.md) 100%
+[react项目简介](root/intro.md) 100%
 
 [什么是.github] 进行中 [liushuigs](https://github.com/liushuigs)
 
