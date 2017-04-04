@@ -1,10 +1,12 @@
 # react-source-learning
 
-[react项目简介](root/intro.md) 100%
+[react项目简介](root/intro.md)
 
-[什么是.github](root/what-is-dot-github.md) 100%
+[什么是.github](root/what-is-dot-github.md)
 
 [什么是.babelrc](root/what-is-dot-babelrc.md)
+
+[什么是.editorconfig](http://editorconfig.org/#overview)
 
 [什么是.eslintignore和.eslintrc.js][liushuigs](https://github.com/liushuigs)
 
