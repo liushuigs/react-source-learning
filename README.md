@@ -8,7 +8,7 @@
 
 [什么是.editorconfig](http://editorconfig.org/#overview)
 
-[什么是.eslintignore和.eslintrc.js][liushuigs](https://github.com/liushuigs)
+[什么是.eslintignore和.eslintrc.js](root/what-is-eslint.md)
 
 [什么是.flowconfig]
 
