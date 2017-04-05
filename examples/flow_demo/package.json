@@ -1,0 +1,15 @@
+{
+  "name": "flow-demo",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -D lib/",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-flow": "^6.23.0"
+  },
+  "dependencies": {
+    "flow-bin": "^0.43.0"
+  }
+}

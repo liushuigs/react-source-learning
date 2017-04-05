@@ -1,5 +1,5 @@
 ## Flow 简介
-[flow](https://flow.org/en/docs/)是facebook推出js类型检查工具。js是一门弱类型语言，没有从语言层面去保证变量类型不匹配的基本错误。flow使得咱们可以指定变量的类型，避免此类错误的发生。
+[flow](https://flow.org/en/docs/)是facebook推出的js类型检查工具。js是一门弱类型语言，没有从语言层面去保证变量类型不匹配的基本错误。flow使得咱们可以指定变量的类型，避免此类错误的发生。
 
 ```
 // @flow
@@ -73,6 +73,8 @@ square("2", "2"); // Error!
 	> 另外，npm上有一个[flow](https://www.npmjs.com/package/flow)，和这里面的flow是完全不相关的，不能混淆。
 	
 	停用flow后台进程，使用`flow stop`
+	
+以上示例的[源码](https://github.com/liushuigs/react-source-learning/examples/flow-demo)。
 	
 ### flow配置文件.flowconfig
 这部分将结合react的[.flowconfig](https://github.com/facebook/react/blob/master/.flowconfig)和[flow官方文档](https://flow.org/en/docs/config/)进行解析。
