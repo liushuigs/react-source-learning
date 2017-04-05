@@ -74,7 +74,7 @@ square("2", "2"); // Error!
 	
 	停用flow后台进程，使用`flow stop`
 	
-以上示例的[源码](https://github.com/liushuigs/react-source-learning/examples/flow-demo)。
+以上示例的[源码](https://github.com/liushuigs/react-source-learning/tree/master/examples/flow_demo)。
 	
 ### flow配置文件.flowconfig
 这部分将结合react的[.flowconfig](https://github.com/facebook/react/blob/master/.flowconfig)和[flow官方文档](https://flow.org/en/docs/config/)进行解析。
