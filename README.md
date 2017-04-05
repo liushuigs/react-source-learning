@@ -1,16 +1,16 @@
 # react-source-learning
 
-[react项目简介](root/intro.md)
+[react项目简介](docs/intro.md)
 
-[什么是.github](root/what-is-dot-github.md)
+[什么是.github](docs/what-is-dot-github.md)
 
-[什么是.babelrc](root/what-is-dot-babelrc.md)
+[什么是.babelrc](docs/what-is-dot-babelrc.md)
 
 [什么是.editorconfig](http://editorconfig.org/#overview)
 
-[什么是.eslintignore和.eslintrc.js](root/what-is-eslint.md)
+[什么是.eslintignore和.eslintrc.js](docs/what-is-eslint.md)
 
-[什么是.flowconfig]
+[什么是.flowconfig](docs/what-is-flow.md)
 
 [什么是.gitattributes]
 
