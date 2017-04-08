@@ -1,0 +1,18 @@
+## 目录结构
+react部分一级目录里面有一个README.md，所以不需要花很大精力去弄明白每个目录是干什么的了。
+### docs
+放[官方文档](https://github.com/facebook/react/blob/master/docs/README.md)。
+### eslint-rules
+react项目似乎并没有使用这个目录下的文件。eslint直接使用[eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+### fixtures
+该目录放react协作者写的一些测试用例
+### flow
+flow全局配置?
+### mocks
+这个目录有一年没更新了，也没有实质性内容
+### packages
+打包输出的入口？
+### scripts
+脚本工具
+### src
+源码目录

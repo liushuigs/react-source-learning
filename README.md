@@ -12,6 +12,8 @@
 
 [什么是.flowconfig](docs/what-is-flow.md)
 
+[React.createClass](docs/src-react-class.md)
+
 [什么是.gitattributes]
 
 [什么是.gitignore]
