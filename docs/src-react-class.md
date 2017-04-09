@@ -1,6 +1,8 @@
 ## ReactClass.js
 源文件: [https://github.com/facebook/react/blob/master/src/isomorphic/classic/class/ReactClass.js](https://github.com/facebook/react/blob/master/src/isomorphic/classic/class/ReactClass.js)
 
+**2017.4.9** 更新 自`15.5`版本开始，`createClass`将不再包含到react核心库，而需要从一个独立的npm package - [create-react-class](https://www.npmjs.com/package/create-react-class)获取。[更新说明](https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html#migrating-from-react.createclass)
+
 我们最常用的React.createClass方法就是在这个文件中定义的（JSX代码最终都要转换成createClass这种形式的）。这也是我阅读react源码过程中，打算详细解读的第一个文件。下面，我将从上到下挑选出能给自己一些启发的源码做注解。有些代码，已有注释，就不在这里粘贴了。包含`__DEV__`的代码段，也暂且忽略。
 
 ```
@@ -19,7 +21,7 @@ var ReactNoopUpdateQueue = require('ReactNoopUpdateQueue');
 
 `ReactBaseClasses`定义了`React.Component`和`React.PureComponent`两个类，此处不展开。
 
-`ReactElement`定义了一些操作React Element的方法，比如`creatEelment`,`cloneElement`,`createFactory`等
+`ReactElement`定义了一些操作React Element的方法，比如`createEelment`,`cloneElement`,`createFactory`等
 
 `ReactNoopUpdateQueue`是默认的updater对象。当我们`setState`的时候，就会马上调用updater.enqueueReplaceState方法，将新的state放入一个队列中，异步处理。
 
